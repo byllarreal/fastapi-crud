@@ -72,3 +72,9 @@ poetry add [dependecias]
 ```bash
 poetry lock --no-update
 ```
+
+finalmente correr el server con:
+
+```bash
+uvicorn app.main:app --reload 
+```
