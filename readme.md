@@ -78,3 +78,8 @@ finalmente correr el server con:
 ```bash
 uvicorn app.main:app --reload 
 ```
+generar requirements:
+
+```bash
+poetry export --without-hashes --format=requirements.txt > requirements.txt 
+```
